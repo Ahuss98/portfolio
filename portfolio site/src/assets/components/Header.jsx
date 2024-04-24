@@ -1,8 +1,8 @@
 function Header (){
     return (
-        <>
-        <div>AHMED HUSSAIN</div>
-        </>
+        <div className="header-box">
+        <div className="header">AHMED HUSSAIN</div>
+        </div>
     )
 }
 export default Header;

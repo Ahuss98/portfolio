@@ -1,0 +1,111 @@
+.header-box{
+  border: 2px black solid;
+  padding: 1rem;
+  margin: 1rem;
+  align-items: center;
+  display: flex;
+}
+
+.BEP{
+  border: 2px black solid;
+  display:flexbox;
+  padding: 1rem;
+  margin: 1rem;
+}
+.FEP{
+  border: 2px black solid;
+  display:flexbox;
+  padding: 1rem;
+  margin: 1rem;
+}
+.GP{
+  border: 2px black solid;
+  display:flexbox;
+  padding: 1rem;
+  margin: 1rem;
+}
+.BE-img{
+  max-width: 100%;
+  max-height: 20%;
+}
+.header {
+  font-size: 4rem;
+}
+.formBox{
+  border: 2px black solid;
+  display:flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.icon{
+  max-width: 4rem;
+}
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+
+}
+.section-container{
+  display: flex;
+}
+
+/*profile section*/
+#profile{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.section_text{
+  align-self: center;
+  text-align: center;
+}
+
+.section_text p {
+  font-weight: 600;
+}
+
+.section_text_1{
+  text-align: center;
+
+}
+.section_text_1{
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  
+}
+.title{
+  font-size: 3rem;
+  text-align: center;
+
+}
+
+#socials-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem
+}
+.section_pic-container{
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+
+}
+.imgBox{
+  border-radius: 50%;
+  border: 2px black solid;
+}
+/*icons*/
+.icon{
+  cursor: pointer;
+  height:2rem;
+}
