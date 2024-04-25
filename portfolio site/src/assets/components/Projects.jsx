@@ -3,31 +3,35 @@ function Projects( ){
         location.href = './#contact';
     }
     const goToFrontEndGitHub = () => {
-        window.location.href =
-			'https://github.com/Ahuss98/NCN-FE';
+        window.open('https://github.com/Ahuss98/NCN-FE', '_blank');
     }
+    
     const goToFrontEndLinkedIn = () => {
-        window.location.href =
-			'https://www.linkedin.com/feed/update/urn:li:activity:7174462169294520322/';
+        window.open('https://www.linkedin.com/feed/update/urn:li:activity:7174462169294520322/', '_blank');
     }
+    
     const goToLiveSite = () => {
-        window.location.href =
-        'https://ncn-network.netlify.app/'
+        window.open('https://ncn-network.netlify.app/', '_blank');
     }
+    
     const goToBackEndGitHub = () => {
-        window.location.href = 'https://github.com/Ahuss98/NCN-BE'
+        window.open('https://github.com/Ahuss98/NCN-BE', '_blank');
     }
+    
     const goToBackEndLinkedIn = () => {
-        window.location.href = 'https://www.linkedin.com/feed/update/urn:li:activity:7167617275766771712/'
+        window.open('https://www.linkedin.com/feed/update/urn:li:activity:7167617275766771712/', '_blank');
     }
+    
     const goToAppGitHub = () => {
-        window.location.href = 'https://github.com/keireasterbrook/iTinerary-chain-reaction?tab=readme-ov-file'
+        window.open('https://github.com/keireasterbrook/iTinerary-chain-reaction?tab=readme-ov-file', '_blank');
     }
+    
     const goToAppLinkedIn = () => {
-        window.location.href = 'https://www.linkedin.com/feed/update/urn:li:activity:7182980228493774848/'
+        window.open('https://www.linkedin.com/feed/update/urn:li:activity:7182980228493774848/', '_blank');
     }
+    
     const goToAppPresentation = () => {
-        window.location.href = 'https://northcoders.com/project-phase/itinerary'
+        window.open('https://northcoders.com/project-phase/itinerary', '_blank');
     }
     return (
         <section id="projects">

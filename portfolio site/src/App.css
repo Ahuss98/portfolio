@@ -445,7 +445,7 @@ article .icon{
 }
 .banner-nc{
 min-width: 100%;
-min-height: 6rem;
+min-height: 12rem;
 }
 
 @media screen and (max-width: 1400px) {

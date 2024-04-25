@@ -1,20 +1,23 @@
 function Intro(){
 	const openResume = () => {
-		window.open('public/resume.pdf');
+		window.open('public/resume.pdf', '_blank');
 	};
-	const goToContact = () => {
-		location.href = './#contact';
-	};
+	
 	const linkedIn = () => {
-		window.location.href =
-			'https://www.linkedin.com/in/ahmed-hussain-122b33271/';
+		window.open('https://www.linkedin.com/in/ahmed-hussain-122b33271/', '_blank');
 	};
+	
 	const gitHub = () => {
-		window.location.href = 'https://github.com/Ahuss98';
+		window.open('https://github.com/Ahuss98', '_blank');
 	};
-    const goToAbout = () => {
-        location.href = './#about'
-    }
+	
+	const goToContact = () => {
+		window.open('./#contact', '_blank');
+	};
+	
+	const goToAbout = () => {
+		window.open('./#about', '_blank');
+	};
 	return (
 		<section className="section-container" id="profile">
             <div className="section_pic-container">
