@@ -19,6 +19,18 @@ a, .btn{
   transition: all 300ms ease;
 }
 /*desktop nav*/
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+
+}
+.section-container{
+  display: flex;
+}
+
 nav, .nav-links{
   display: flex;
 
@@ -331,52 +343,68 @@ a:hover{
   background-color: black;
   color: white;
 }
-.BEP{
-  border: 2px black solid;
-  display:flexbox;
-  padding: 1rem;
+#projects{
+  position: relative;
+}
+.color-container {
+  border-color: rgb(163,163,163);
+  background: rgb(250,250,250);
+}
+.project-img{
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+.project-title{
   margin: 1rem;
+  color: black;
 }
-.FEP{
-  border: 2px black solid;
-  display:flexbox;
-  padding: 1rem;
-  margin: 1rem;
-}
-.GP{
-  border: 2px black solid;
-  display:flexbox;
-  padding: 1rem;
-  margin: 1rem;
-}
-.BE-img{
-  max-width: 100%;
-  max-height: 20%;
-}
-.header {
-  font-size: 4rem;
-}
-.formBox{
-  border: 2px black solid;
-  display:flex;
-  align-items: center;
-  padding: 1rem;
-  margin: 1rem;
+.project-btn{
+  color: black;
+  border-color: rgb(163,163,163);
 }
 
-.icon{
-  max-width: 4rem;
-}
-
-section {
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
-
-}
-.section-container{
+/*contact*/
+#contact{
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+
+}
+.contact-info-upper-container{
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53,53,53) 0.1rem solid;
+  border-color: rgb(163,163,163);
+  background: (250,250,250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+.contact-info-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+.contact-info-container p{
+  font-size: larger;
+
+}
+.contact-icon {
+  cursor: default;
+}
+
+/*footer*/
+
+footer{
+  height: 26vh;
+  margin: 0 1rem;
+
+}
+footer p{
+  text-align: center;
 }
 

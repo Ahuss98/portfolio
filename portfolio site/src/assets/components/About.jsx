@@ -25,7 +25,7 @@ function About(){
  
     return(
     <section id="about">
-        <p className="section_text_1">Get to know more!</p>
+        <p className="section_text_1">Get to know more</p>
         <h1 className="title">About me</h1>
         <div className="section-container">
             <div className="section_pic-container">
