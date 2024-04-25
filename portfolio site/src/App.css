@@ -1,9 +1,149 @@
+/*Genral*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+}
+html{
+  scroll-behavior: smooth;
+}
+p{
+  color:rgb(85, 85, 85);
+}
+/*transition*/
+a, .btn{
+  transition: all 300ms ease;
+}
+/*desktop nav*/
+nav, .nav-links{
+  display: flex;
+
+}
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+
+}
+.nav-links{
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+a:hover{
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181,181,181);
+}
+.logo{
+  font-size: 2rem;
+
+}
+.logo:hover{
+  cursor: default;
+}
+/*hamburger menu*/
+#hamburger-nav{
+  display: none;
+}
+.hamburger-menu{
+  position: relative;
+  display: inline-block;
+
+}
+
+.hamburger-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+    #desktop-nav{
+      display: none;
+    }
+    #hamburger-nav{
+      display: flex;
+    }
+}
+
+.hamburger-icon span{
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links{
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out;
+}
+.menu-links a{
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+.menu-links li{
+  list-style: none;
+
+}
+
+.menu-links.open{
+  max-height: 300px;
+
+}
+.hamburger-icon.open span:first-child{
+  transform: rotate(45deg) translate(10px, 5px);
+}
+.hamburger-icon.open span:nth-child(2){
+  opacity: 0;
+}
+.hamburger-icon.open span:last-child{
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+.hamburger-icon span:first-child{
+  transform: none;
+}
+.hamburger-icon span:first-child{
+  opacity: 1;
+}
+.hamburger-icon span:first-child{
+  transform: none;
+}
+
+
 .header-box{
   border: 2px black solid;
   padding: 1rem;
   margin: 1rem;
   align-items: center;
   display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal; 
 }
 
 .BEP{
@@ -74,9 +214,11 @@ section {
 
 .section_text_1{
   text-align: center;
+  font-size: 1.25rem;
 
 }
-.section_text_1{
+
+.section_text_2{
   font-size: 1.75rem;
   margin-bottom: 1rem;
   
@@ -108,4 +250,45 @@ section {
 .icon{
   cursor: pointer;
   height:2rem;
+}
+/*buttons*/
+
+.btn-container{
+  display: felx;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-cv, 
+.btn-contact{
+  border: rgb(53,53,53) 0.1rem solid;
+}
+.btn-cv:hover, 
+.btn-contact:hover{
+  cursor: pointer;
+}
+.btn-cv, 
+.btn-contact:hover{
+  background: rgb(53,53,53);
+  color: white;
+}
+.btn-cv:hover{
+  background: rgb(0,0,0);
+}
+.btn-contact{
+  background: none;
+}
+.btn-contact:hover{
+  border: rgb(255,255,255) 0.1rem solid;
+}
+.btn-container{
+  gap: 1rem;
 }

@@ -1,7 +1,7 @@
 function Header (){
     return (
         <div className="header-box">
-        <div className="header">AHMED HUSSAIN</div>
+        <h1 className="header">AHMED HUSSAIN</h1>
         </div>
     )
 }

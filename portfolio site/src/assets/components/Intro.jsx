@@ -24,12 +24,15 @@ function Intro(){
 					<p className="section_text_2">
 						FullStack Software Developer
 					</p>
+                    <div className="btn-container">
 					<button className="btn btn-cv" onClick={openResume}>
 						Download Info
 					</button>
 					<button className="btn btn-contact" onClick={goToContact}>
 						Contact Me
 					</button>
+
+                    </div>
 				</div>
 				<div id="socials-container">
 					<img
