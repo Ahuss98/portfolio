@@ -97,7 +97,7 @@ function Projects( ){
                 </div>
                 </div>
             </div>
-            <span id="projects-arrow" className="material-symbols-outlined" onClick={goToContact}>
+            <span id="projects-arrow" className="material-symbols-outlined arrow" onClick={goToContact}>
                         arrow_downward
                 </span>
         </section>

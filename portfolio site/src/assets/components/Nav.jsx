@@ -12,6 +12,7 @@ function Nav (){
             <div>
                 <ul className="nav-links">
                     <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Tech Stack</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -27,6 +28,7 @@ function Nav (){
                 </div>
                 <div className="menu-links">
                     <li><a href="#about" onClick={toggleMenu}>About</a></li>
+                    <li><a href="#experience">Tech Stack</a></li>
                     <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
                     <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
                 </div>

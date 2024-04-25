@@ -52,7 +52,7 @@ function Intro(){
 					/>
 				</div>
 			</div>
-                <span id="intro-arrow" className="material-symbols-outlined" onClick={goToAbout}>
+                <span id="intro-arrow" className="material-symbols-outlined arrow" onClick={goToAbout}>
                         arrow_downward
                 </span>
 		</section>

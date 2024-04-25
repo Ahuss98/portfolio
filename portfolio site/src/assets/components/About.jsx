@@ -6,7 +6,7 @@ function About(){
 
     const [about,setAbout] = useState([{img:"images/NC-logo.png",h3:'Experience',p:'Completed a 13-Week Full Stack Software Development Bootcamp as a Trainee Software Developer at Northcoders focusing on a PERN Stack'}])
     const goToProjects = () => {
-        location.href = './#projects';
+        location.href = './#experience';
     }
    
         const toggleAbout = (info) =>{
@@ -54,7 +54,7 @@ function About(){
                 
             </div>
         </div>
-                <span className="material-symbols-outlined" onClick={goToProjects}>
+                <span className="material-symbols-outlined arrow" onClick={goToProjects}>
                         arrow_downward
                 </span>
     </section>

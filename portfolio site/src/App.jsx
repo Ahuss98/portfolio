@@ -5,6 +5,7 @@ import Contact from './assets/components/Contact'
 import Nav from './assets/components/Nav'
 import About from './assets/components/About'
 import Footer from './assets/components/Footer'
+import Experience from './assets/components/Experience'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <Nav/>
     <Intro/>
     <About/>
+    <Experience/>
     <Projects/>
     <Contact/>
     <Footer/>
