@@ -16,7 +16,7 @@ function Intro(){
 	};
 	
 	const goToAbout = () => {
-		window.open('./#about', '_blank');
+		location.href = './#about';
 	};
 	return (
 		<section className="section-container" id="profile">
