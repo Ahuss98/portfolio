@@ -17,7 +17,7 @@ function About(){
                 setAbout([{img:"images/Education-logo.png",h3:'Education',p:'Studied Computer Systems Engineering at the University of Kent and completed A-Levels in Maths, English and Phisics'}])
             }
             if(info === 'PI'){
-                setAbout([{img:"images/PI-logo.png",h3:'Personal Info',p:'A Career changer from a personal Trainer and amateur fighter. I love to solve problems and take on challenges currently chasing my Black Belt as a software developer.'}])
+                setAbout([{img:"images/PI-logo.png",h3:'Personal Info',p:'A Career changer from a personal Trainer and amateur fighter. I love to solve problems and take on challenges currently, chasing my Black Belt as a software developer.'}])
             }
             setSelectedBtn(info);
         }
