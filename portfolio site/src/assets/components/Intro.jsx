@@ -12,6 +12,9 @@ function Intro(){
 	const gitHub = () => {
 		window.location.href = 'https://github.com/Ahuss98';
 	};
+    const goToAbout = () => {
+        location.href = './#about'
+    }
 	return (
 		<section className="section-container" id="profile">
             <div className="section_pic-container">
@@ -49,6 +52,9 @@ function Intro(){
 					/>
 				</div>
 			</div>
+                <span id="intro-arrow" className="material-symbols-outlined" onClick={goToAbout}>
+                        arrow_downward
+                </span>
 		</section>
 	);
 }

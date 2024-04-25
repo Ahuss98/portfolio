@@ -133,68 +133,6 @@ a:hover{
 .hamburger-icon span:first-child{
   transform: none;
 }
-
-
-.header-box{
-  border: 2px black solid;
-  padding: 1rem;
-  margin: 1rem;
-  align-items: center;
-  display: flex;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal; 
-}
-
-.BEP{
-  border: 2px black solid;
-  display:flexbox;
-  padding: 1rem;
-  margin: 1rem;
-}
-.FEP{
-  border: 2px black solid;
-  display:flexbox;
-  padding: 1rem;
-  margin: 1rem;
-}
-.GP{
-  border: 2px black solid;
-  display:flexbox;
-  padding: 1rem;
-  margin: 1rem;
-}
-.BE-img{
-  max-width: 100%;
-  max-height: 20%;
-}
-.header {
-  font-size: 4rem;
-}
-.formBox{
-  border: 2px black solid;
-  display:flex;
-  align-items: center;
-  padding: 1rem;
-  margin: 1rem;
-}
-
-.icon{
-  max-width: 4rem;
-}
-
-section {
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
-
-}
-.section-container{
-  display: flex;
-}
-
 /*profile section*/
 #profile{
   display: flex;
@@ -292,3 +230,153 @@ section {
 .btn-container{
   gap: 1rem;
 }
+#intro-arrow{
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+
+/*about section*/
+
+#about{
+  position: relative;
+}
+.about-containers{
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.about-details-container{
+  justify-content: center;
+  flex-direction: column;
+}
+.about-containers, .about-details-container{
+  display: flex;
+}
+.about-pic{
+  border-radius: 2rem;
+
+}
+.material-symbols-outlined{
+  position: absolute;
+  right: -8rem;
+  bottom: 2.5rem;
+}
+.material-symbols-outlined:hover{
+  cursor: pointer;
+}
+.about-logo{
+  font-size: 2rem;
+  max-width: 2rem;
+  max-height: 2rem;
+}
+.details-container{
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53,53,53)0.1rem solid;
+  border-color: rgb(163,163,163);
+  text-align: center;
+}
+.section-container{
+  gap: 4rem;
+  height: 80%;
+}
+.section_pic-container{
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.btn-container-about{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#about .btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 0.5rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-color: white;
+}
+.btn img{
+  width: 2rem;
+  border-radius: 2rem;
+}
+
+.selected-btn {
+  background: black;
+  color: white;
+}
+
+.personalInfo-btn.selected-btn,
+.edu-btn.selected-btn,
+.exp-btn.selected-btn {
+  border: none;
+}
+
+#intro-arrow{
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+/*projects*/
+#projects .btn:hover{
+  background-color: black;
+  color: white;
+}
+.BEP{
+  border: 2px black solid;
+  display:flexbox;
+  padding: 1rem;
+  margin: 1rem;
+}
+.FEP{
+  border: 2px black solid;
+  display:flexbox;
+  padding: 1rem;
+  margin: 1rem;
+}
+.GP{
+  border: 2px black solid;
+  display:flexbox;
+  padding: 1rem;
+  margin: 1rem;
+}
+.BE-img{
+  max-width: 100%;
+  max-height: 20%;
+}
+.header {
+  font-size: 4rem;
+}
+.formBox{
+  border: 2px black solid;
+  display:flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.icon{
+  max-width: 4rem;
+}
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+
+}
+.section-container{
+  display: flex;
+}
+
