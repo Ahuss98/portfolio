@@ -12,7 +12,7 @@ function Footer(){
             </div>
         </nav>
         <p>
-        Copywrite &copy; 2024 Ahmed Hussain. All rights reserved.
+        Copyrite &copy; 2024 Ahmed Hussain. All rights reserved.
         </p>
         </footer>
     )
