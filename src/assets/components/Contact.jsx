@@ -12,6 +12,10 @@ function Contact() {
                     <img src="images/linkedIn-Logo.png" alt="LinkedIn icon" className="icon contact-icon"/>
                     <p><a href="https://www.linkedin.com/in/ahmed-hussain-122b33271/" target="_blank">LinkedIn</a></p>
                 </div>
+                <div className="contact-info-container">
+                    <img src="images/phone.png" alt="phone icon" className="icon contact-icon"/>
+                    <p><a href="tel:+447786362124" target="_blank">+447786362124</a></p>
+                </div>
             </div>
         </section>
     );
