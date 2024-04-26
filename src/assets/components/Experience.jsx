@@ -45,7 +45,7 @@ function Experience(){
                             </article>
                             <article>
                                 <img src="images/psql-icon.png" alt="pswl icon" />
-                                <h3>PostgresSql</h3>
+                                <h3>PostgreSql</h3>
                             </article>
                             <article>
                                 <img src="images/jest-icon.png" alt="jest icon" />
