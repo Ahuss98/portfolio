@@ -12,7 +12,7 @@ function Intro(){
 	};
 	
 	const goToContact = () => {
-		window.open('./#contact', '_blank');
+		location.href = './#contact';
 	};
 	
 	const goToAbout = () => {
@@ -32,7 +32,7 @@ function Intro(){
 					</p>
                     <div className="btn-container">
 					<button className="btn btn-cv" onClick={openResume}>
-						Download Info
+						Download CV
 					</button>
 					<button className="btn btn-contact" onClick={goToContact}>
 						Contact Me

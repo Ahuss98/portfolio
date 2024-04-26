@@ -64,7 +64,7 @@ function Projects( ){
                     <div className="article-container">
                         <img 
                         src="images/BE-Project-pic.png" 
-                        alt="my front end project snpashot"
+                        alt="my back end project snapshot"
                         className="project-img" 
                         />
                     </div>
@@ -82,7 +82,7 @@ function Projects( ){
                     <div className="article-container">
                         <img 
                         src="images/APP-Project-pic.png" 
-                        alt="my back end project snpashot"
+                        alt="my app project snapshot"
                         className="project-img" 
                         />
                     </div>
