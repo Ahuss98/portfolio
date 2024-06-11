@@ -32,7 +32,7 @@ function Intro(){
 					</p>
                     <div className="btn-container">
 					<button className="btn btn-cv" onClick={openResume}>
-						Download CV
+						View CV
 					</button>
 					<button className="btn btn-contact" onClick={goToContact}>
 						Contact Me
