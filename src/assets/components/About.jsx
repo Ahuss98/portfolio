@@ -14,7 +14,7 @@ function About(){
                 setAbout([{img:"images/NC-logo.png",h3:'Experience',p:'Completed a 13-Week Full Stack Software Development Bootcamp as a Trainee Software Developer at Northcoders focusing on a PERN Stack'}])
             }
             if(info === 'edu'){
-                setAbout([{img:"images/Education-logo.png",h3:'Education',p:'Studied Computer Systems Engineering at the University of Kent and completed A-Levels in Maths, English and Phisics'}])
+                setAbout([{img:"images/Education-logo.png",h3:'Education',p:'Studied Computer Systems Engineering at the University of Kent and completed A-Levels in Maths, Economics and Phisics'}])
             }
             if(info === 'PI'){
                 setAbout([{img:"images/PI-logo.png",h3:'Personal Info',p:'A Career changer from a personal Trainer and amateur fighter. I love to solve problems and take on challenges, currently chasing my Black Belt as a software developer.'}])
