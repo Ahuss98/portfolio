@@ -232,9 +232,6 @@ a:hover{
 .btn-contact:hover{
   border: rgb(255,255,255) 0.1rem solid;
 }
-.btn-container{
-  gap: 1rem;
-}
 #intro-arrow{
   position: absolute;
   bottom: 2rem;
@@ -312,11 +309,6 @@ a:hover{
 .btn img{
   width: 2rem;
   border-radius: 2rem;
-}
-
-.selected-btn {
-  background: black;
-  color: white;
 }
 
 .personalInfo-btn.selected-btn,

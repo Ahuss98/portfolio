@@ -56,13 +56,13 @@ function Projects( ){
                         className="project-img" 
                         />
                     </div>
-                    <h2 className="experience-sub-title project-title">Front-End Project</h2>
+                    <h2 className="experience-sub-title project-title">NCN NEWS</h2>
                     <div className="btn-container">
                         <button className="btn btn-color-2 project-btn" onClick={goToFrontEndGitHub}>
                             Github
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToFrontEndLinkedIn}>
-                            LinkedIn Demo
+                            LinkedIn
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToLiveSite}>
                             Netlify site
@@ -77,13 +77,13 @@ function Projects( ){
                         className="project-img" 
                         />
                     </div>
-                    <h2 className="experience-sub-title project-title">Back-End Project</h2>
+                    <h2 className="experience-sub-title project-title">NCN API</h2>
                     <div className="btn-container">
                         <button className="btn btn-color-2 project-btn" onClick={goToBackEndGitHub}>
                             Github
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToBackEndLinkedIn}>
-                            LinkedIn Demo
+                            LinkedIn
                         </button>
                     </div>
                 </div>
@@ -95,13 +95,13 @@ function Projects( ){
                         className="project-img" 
                         />
                     </div>
-                    <h2 className="experience-sub-title project-title">App Group Project</h2>
+                    <h2 className="experience-sub-title project-title"> iTinerary App</h2>
                     <div className="btn-container">
                         <button className="btn btn-color-2 project-btn" onClick={goToAppGitHub}>
                             Github
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToAppLinkedIn}>
-                            LinkedIn Demo
+                            LinkedIn
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToAppPresentation}>
                             Live Demo
@@ -122,7 +122,7 @@ function Projects( ){
                             Github
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToHussainFitLinkedIn}>
-                            LinkedIn Demo
+                            LinkedIn
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToHussianFit}>
                             Live Demo
