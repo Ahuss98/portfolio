@@ -33,6 +33,15 @@ function Projects( ){
     const goToAppPresentation = () => {
         window.open('https://northcoders.com/project-phase/itinerary', '_blank');
     }
+    const goToHussainFitGithub = () => {
+        window.open('https://github.com/Ahuss98/HussainMMA', '_blank')
+    }
+    const goToHussainFitLinkedIn = () => {
+        window.open('https://www.linkedin.com/feed/update/urn:li:activity:7215724347989131264/', '_blank')
+    }
+    const goToHussianFit =() => {
+        window.open('https://main--hussainfitness.netlify.app/', '_blank')
+    }
     return (
         <section id="projects">
             <p className="section_text_1">Browse my </p>
@@ -95,6 +104,27 @@ function Projects( ){
                             LinkedIn Demo
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToAppPresentation}>
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div className="details-container color-conaitiner">
+                    <div className="article-container">
+                        <img 
+                        src="images/HussainFit-pic.png" 
+                        alt="my app project snapshot"
+                        className="project-img" 
+                        />
+                    </div>
+                    <h2 className="experience-sub-title project-title">Hussain-Fitness</h2>
+                    <div className="btn-container">
+                        <button className="btn btn-color-2 project-btn" onClick={goToHussainFitGithub}>
+                            Github
+                        </button>
+                        <button className="btn btn-color-2 project-btn" onClick={goToHussainFitLinkedIn}>
+                            LinkedIn Demo
+                        </button>
+                        <button className="btn btn-color-2 project-btn" onClick={goToHussianFit}>
                             Live Demo
                         </button>
                     </div>
