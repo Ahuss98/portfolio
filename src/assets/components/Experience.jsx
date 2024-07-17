@@ -13,20 +13,20 @@ function Experience(){
                         <img src="images/Front-End.png" alt="picture of me with northcoders logo behind me" className="banner-nc"/>
                         <div className="article-container">
                             <article>
-                                <img src="images/html-5.svg" alt="html icon" />
-                             
+                                <img src="images/html-icon.png" alt="html icon" />
+                                <h5>HTML</h5>
                             </article>
                             <article>
-                                <img src="images/css-3.svg" alt="css icon" />
-                               
+                                <img src="images/css-icon.png" alt="css icon" />
+                                <h5>CSS</h5>
                             </article>
                             <article>
-                                <img src="images/javascript-js.svg" alt="javascript icon" />
-                             
+                                <img src="images/js-icon.png" alt="javascript icon" />
+                                <h5>JavaScript</h5>
                             </article>
                             <article>
-                                <img src="images/react.svg" alt="react icon" />
-                          
+                                <img src="images/react-icon.png" alt="react icon" />
+                                <h5>React</h5>
                             </article>
                             
                         </div>
@@ -37,27 +37,19 @@ function Experience(){
                         <div className="article-container">
                             <article>
                                 <img src="images/express-icon.png" alt="express icon" />
-                            
+                                <h5>Express</h5>
                             </article>
                             <article>
-                                <img src="images/node.svg" alt="node icon" />
-                           
+                                <img src="images/node.png" alt="node icon" />
+                                <h5>Node</h5>
                             </article>
                             <article>
                                 <img src="images/psql-icon.png" alt="pswl icon" />
-                        
+                                <h5>PostgreSQL</h5>
                             </article>
                             <article>
                                 <img src="images/jest-icon.png" alt="jest icon" />
-                            
-                            </article>
-                            <article>
-                                <img src="images/git-icon.png" alt="git icon" />
-                           
-                            </article>
-                            <article>
-                                <img src="images/npm-icon.png" alt="npm icon" />
-                              
+                                <h5>Jest</h5>
                             </article>
                             
                         </div>

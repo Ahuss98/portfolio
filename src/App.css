@@ -416,12 +416,15 @@ position: relative;
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  margin-top: 2rem;
 }
 article{
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   gap: 0.5rem;
+  flex-direction: column;
 }
 article .icon{
   cursor: default;
