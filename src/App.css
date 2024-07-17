@@ -442,7 +442,7 @@ article .icon{
 min-width: 100%;
 min-height: 12rem;
 border-radius: 2rem;
-outline: solid black 4px;
+outline: solid black 2px;
 }
 
 @media screen and (max-width: 1400px) {
