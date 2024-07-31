@@ -65,7 +65,7 @@ function Projects( ){
                             LinkedIn
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToLiveSite}>
-                            Netlify site
+                            Live site
                         </button>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ function Projects( ){
                             LinkedIn
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToHussianFit}>
-                            Live Demo
+                            Live site
                         </button>
                     </div>
                 </div>
