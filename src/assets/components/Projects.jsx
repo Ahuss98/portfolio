@@ -65,7 +65,7 @@ function Projects( ){
                             LinkedIn
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToLiveSite}>
-                            Live site
+                            Website
                         </button>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ function Projects( ){
                             LinkedIn
                         </button>
                         <button className="btn btn-color-2 project-btn" onClick={goToHussianFit}>
-                            Live site
+                            Website
                         </button>
                     </div>
                 </div>
