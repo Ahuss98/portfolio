@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+
 function Nav() {
 	const toggleMenu = () => {
 		const menu = document.querySelector('.menu-links');
