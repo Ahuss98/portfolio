@@ -5,6 +5,10 @@ function Nav() {
 		menu.classList.toggle('open');
 		icon.classList.toggle('open');
 	};
+		const [isOpen, setIsOpen] = useState(false);
+	const toggleHam = () => {
+	  setIsOpen(!isOpen);
+	};
 	return (
 		<>
 			<nav id="desktop-nav">
@@ -27,29 +31,29 @@ function Nav() {
 				</div>
 			</nav>
 			<nav id="hamburger-nav">
-				<div className="logo">Ahmed Hussain</div>
+				<div className="logo">Anes Motam</div>
 				<div className="hamburger-menu">
-					<div className="hamburger-icon" onClick={toggleMenu}>
-						<span></span>
-						<span></span>
-						<span></span>
+				<div className={`hamburger-icon ${isOpen ? 'open' : ''}`} onClick={toggleHam}>
+						<span className="bar"></span>
+						<span className="bar"></span>
+						<span className="bar"></span>
 					</div>
-					<div className="menu-links">
+					<div className={`menu-links ${isOpen ? 'open' : 'collapsed'}`}>
 						<li>
-							<a href="#about" onClick={toggleMenu}>
+							<a href="#about" onClick={toggleHam}>
 								About
 							</a>
 						</li>
 						<li>
-							<a href="#experience">Tech Stack</a>
+							<a href="#experience" onClick={toggleHam}>Tech Stack</a>
 						</li>
 						<li>
-							<a href="#projects" onClick={toggleMenu}>
+							<a href="#projects" onClick={toggleHam}>
 								Projects
 							</a>
 						</li>
 						<li>
-							<a href="#contact" onClick={toggleMenu}>
+							<a href="#contact" onClick={toggleHam}>
 								Contact
 							</a>
 						</li>
