@@ -33,7 +33,7 @@ function Nav() {
 				</div>
 			</nav>
 			<nav id="hamburger-nav">
-				<div className="logo">Anes Motam</div>
+				<div className="logo">Ahmed Hussain</div>
 				<div className="hamburger-menu">
 				<div className={`hamburger-icon ${isOpen ? 'open' : ''}`} onClick={toggleHam}>
 						<span className="bar"></span>
